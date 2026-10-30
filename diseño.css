@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    color: #00a6ff;
+    background-color: rgb(67, 6, 123);
+    height: 70px;
+    padding: 0 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+p.parrafo1{
+    color: #000000;
+    padding: 0 30px 12px;
+    font-size: 40px;
+    text-align: center;
+}
+p.parrafo2{
+    color: #000000;
+    padding: 0 30px 12px;
+    font-size: 40px;
+    text-align: center;
+}
+.contenedor{
+    margin-top: 500px;
+}

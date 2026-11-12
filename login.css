@@ -1,5 +1,22 @@
 body{
     background-image: url(imagenes/abstract-futuristic-background-with-3d-design.jpg);
-    background-size: 500px;
-    background-position: center;
+    background-size: auto;
+    background-position: auto;
+}
+.formulario{
+    position: absolute;
+    right: 600px;
+    top: 200px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    background-color: rgba(0, 38, 177, 0.8);
+    padding: 5px;
+    border-radius: 10px;
+    margin: 5px;
+}
+.usuario .contraseña{
+    border-radius: 10px;
 }

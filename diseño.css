@@ -13,7 +13,7 @@ body{
 
 
 * {
-    margin: 0;
+    margin: 0; 
     padding: 0;
     box-sizing: border-box;
 }
@@ -25,27 +25,29 @@ h1{
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 p.parrafo1{
-    color: #000000;
-    font-size: 40px;
+    color: rgb(67, 6, 123); 
+    font-size: 32px;
+    font-weight: bold;
     text-align: center;
-    padding: 25px 30px 0;
+    padding: 25px 30px 5px;
 }
 p.parrafo2{
-    color: #000000;
-    font-size: 40px;
+    color: #0077cc; 
+    font-size: 38px;
     text-align: center;
-    padding: 0 30px 10px;
+    padding: 0 30px 15px;
     max-width: 1200px;
     margin: 0 auto;         
     font-family: "Angeline", sans-serif;
 }
 p.parrafo3{
-    color: #000000;
-    font-size: 30px;
+    color: #444444; 
+    font-size: 24px;
     text-align: center;
-    padding: 30px 20px 20px;
+    padding: 15px 20px 25px;
     max-width: 1200px;
     margin: 0 auto;
+    line-height: 1.6;
 }
 h2{
     color: rgb(67, 6, 123);
@@ -67,12 +69,14 @@ h2{
     max-width:1000px;
     border: 1px solid #e0e0e0;
     border-radius: 10px;
-    padding: 20px;
+    padding: 100px 0px;
+    margin: 25px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 .plan1 img, .plan2 img, .plan3 img{
-    width: 500px;
-    object-fit: cover;
+    width: 600px;
+    height: 950px;
+    object-fit: fill;
     border-radius: 10px;
 }
 .plan1 h3, .plan2 h3, .plan3 h3{
@@ -110,4 +114,22 @@ h2{
     p.parrafo1{ font-size: 30px; }
     p.parrafo2{ font-size: 20px; }
     .plan1, .plan2, .plan3{ max-width: 100%; }
+}
+
+.contacto{
+    margin: 40px;
+}
+.contacto h5{
+    color: rgb(67, 6, 123);
+    font-size: 50px;
+    text-align: left;
+    padding: 20px;
+    margin: 40px 0 10px;
+}
+.contacto input{
+    font-size: 50px;
+    width: 100%;
+    padding: 20px;
+    padding-right: 40px;
+    margin: 20px 0;
 }

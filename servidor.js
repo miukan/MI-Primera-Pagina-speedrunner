@@ -1,7 +1,7 @@
 const express = require("express");
 
 const app = express();
-const PUERTO = 3000;
+const PUERTO = process.env.PORT || 3000;
 
 const USUARIO_VALIDO = "admin";
 const CONTRASENA_VALIDA = "admin";

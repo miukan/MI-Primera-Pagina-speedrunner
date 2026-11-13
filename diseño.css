@@ -57,15 +57,16 @@ h2{
 }
 .planes{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: center;
-    padding: 200px;
+    padding: 20px;
 }
 .plan1, .plan2, .plan3{
     display: flex;
     flex-direction: column;
     align-items: center;
     flex: 1;
+    min-width: 0;
     max-width:1000px;
     border: 1px solid #e0e0e0;
     border-radius: 10px;
@@ -74,7 +75,7 @@ h2{
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 .plan1 img, .plan2 img, .plan3 img{
-    width: 600px;
+    width: 100%;
     height: 950px;
     object-fit: fill;
     border-radius: 10px;

@@ -1,11 +1,9 @@
-function loguear(){
-    const user=document.getElementById("username").value;
-    const pass=document.getElementById("password").value;
+const parametros = new URLSearchParams(window.location.search);
 
-    if (user=="admin"&&pass=="admin"){
-        window.location.href="pagina.html";
-    }
-    else{
-        alert("usuario o contraseña incorrectos");
+if (parametros.get("error") === "1") {
+    const aviso = document.getElementById("mensaje-error");
+    if (aviso) {
+        aviso.textContent = "Usuario o contraseña incorrectos";
+        aviso.style.color = "#c0392b";
     }
 }

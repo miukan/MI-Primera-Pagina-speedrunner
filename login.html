@@ -11,15 +11,16 @@
 <body>
     <div class="formulario">
         <h1>Login</h1>
-        <form method ="post">
+        <form method="post" action="/login">
             <div class="usuario">
-                <input type="text" id="username" placeholder="nombre de usuario">
+                <input type="text" id="username" name="username" placeholder="nombre de usuario">
             </div>
             <div class="contraseña">
-                <input type="password" id="password" placeholder="contraseña">
+                <input type="password" id="password" name="password" placeholder="contraseña">
             </div>
             <div class="boton">
-                <button type="button" onclick="loguear()">login</button>
+                <button type="submit">login</button>
+                <p id="mensaje-error"></p>
                 <div class="registro">
                 registrese aqui <a href="registro.html" style="color: #d6e40b;">registro</a>
                 </div>

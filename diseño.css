@@ -133,3 +133,32 @@ h2{
     padding-right: 40px;
     margin: 20px 0;
 }
+
+/* Animaciones basicas */
+@keyframes aparecer{
+    from{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+h1, p.parrafo1, p.parrafo2, p.parrafo3, h2{
+    animation: aparecer 0.8s ease-out;
+}
+.plan1, .plan2, .plan3{
+    animation: aparecer 0.8s ease-out;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.plan1:hover, .plan2:hover, .plan3:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+.plan1 img, .plan2 img, .plan3 img{
+    transition: transform 0.3s;
+}
+.plan1:hover img, .plan2:hover img, .plan3:hover img{
+    transform: scale(1.03);
+}
